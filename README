@@ -1,0 +1,6 @@
+Busey bank CSV to OFX converter
+2009-02-16
+
+A simple script to convert between Busey bank's (http://busey.com) CSV format to OFX for importing into personal financial management software.  The resulting OFX file contains merchant information (i.e., the name) unlike Busey's official OFX export.
+
+Usage: python busey-csv2ofx.py Export.csv > Export.ofx
